@@ -1,4 +1,4 @@
-FROM tarrenj/botio-base:UseCreds
+FROM smrtz/botio-good
 
 MAINTAINER cronicc@protonmail.com
 
