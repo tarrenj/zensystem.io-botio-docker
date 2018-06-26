@@ -1,4 +1,4 @@
-FROM zencash/botio-base:UseCreds
+FROM tarrenj/botio-base:UseCreds
 
 MAINTAINER cronicc@protonmail.com
 
