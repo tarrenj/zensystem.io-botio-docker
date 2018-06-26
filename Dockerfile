@@ -1,4 +1,4 @@
-FROM zencash/botio-base:https
+FROM zencash/botio-base:UseCreds
 
 MAINTAINER cronicc@protonmail.com
 
@@ -18,7 +18,7 @@ RUN npm install -g bower gulp
 
 RUN mkdir -p /home/temp
 
-RUN git clone -b master --single-branch https://github.com/ZencashOfficial/botio-files-zensystem.io.git /home/temp/botio-files \
+RUN git clone -b master --single-branch https://github.com/tarrenj/botio-files-zensystem.io.git /home/temp/botio-files \
     && cd /home/temp/botio-files \
     && npm install
 
